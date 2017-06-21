@@ -1,0 +1,155 @@
+
+Input Array is: 
+	------------------------------------------------------------------------------------------------------------------------
+	|1	|2	|3	|4	|5	|6	|12	|23	|12	|44	|56	|4	|23	|9	|67	|
+	------------------------------------------------------------------------------------------------------------------------
+
+**************************************
+Now we will compare number at index 1 with the numbers on its left, till we get a number less than current number.
+Found Location for 2 to insert in an array; that is index 1
+After insertion of 2 at location 1; updated array is:
+	------------------------------------------------------------------------------------------------------------------------
+	|1	|2	|3	|4	|5	|6	|12	|23	|12	|44	|56	|4	|23	|9	|67	|
+	------------------------------------------------------------------------------------------------------------------------
+
+**************************************
+Now we will compare number at index 2 with the numbers on its left, till we get a number less than current number.
+Found Location for 3 to insert in an array; that is index 2
+After insertion of 3 at location 2; updated array is:
+	------------------------------------------------------------------------------------------------------------------------
+	|1	|2	|3	|4	|5	|6	|12	|23	|12	|44	|56	|4	|23	|9	|67	|
+	------------------------------------------------------------------------------------------------------------------------
+
+**************************************
+Now we will compare number at index 3 with the numbers on its left, till we get a number less than current number.
+Found Location for 4 to insert in an array; that is index 3
+After insertion of 4 at location 3; updated array is:
+	------------------------------------------------------------------------------------------------------------------------
+	|1	|2	|3	|4	|5	|6	|12	|23	|12	|44	|56	|4	|23	|9	|67	|
+	------------------------------------------------------------------------------------------------------------------------
+
+**************************************
+Now we will compare number at index 4 with the numbers on its left, till we get a number less than current number.
+Found Location for 5 to insert in an array; that is index 4
+After insertion of 5 at location 4; updated array is:
+	------------------------------------------------------------------------------------------------------------------------
+	|1	|2	|3	|4	|5	|6	|12	|23	|12	|44	|56	|4	|23	|9	|67	|
+	------------------------------------------------------------------------------------------------------------------------
+
+**************************************
+Now we will compare number at index 5 with the numbers on its left, till we get a number less than current number.
+Found Location for 6 to insert in an array; that is index 5
+After insertion of 6 at location 5; updated array is:
+	------------------------------------------------------------------------------------------------------------------------
+	|1	|2	|3	|4	|5	|6	|12	|23	|12	|44	|56	|4	|23	|9	|67	|
+	------------------------------------------------------------------------------------------------------------------------
+
+**************************************
+Now we will compare number at index 6 with the numbers on its left, till we get a number less than current number.
+Found Location for 12 to insert in an array; that is index 6
+After insertion of 12 at location 6; updated array is:
+	------------------------------------------------------------------------------------------------------------------------
+	|1	|2	|3	|4	|5	|6	|12	|23	|12	|44	|56	|4	|23	|9	|67	|
+	------------------------------------------------------------------------------------------------------------------------
+
+**************************************
+Now we will compare number at index 7 with the numbers on its left, till we get a number less than current number.
+Found Location for 23 to insert in an array; that is index 7
+After insertion of 23 at location 7; updated array is:
+	------------------------------------------------------------------------------------------------------------------------
+	|1	|2	|3	|4	|5	|6	|12	|23	|12	|44	|56	|4	|23	|9	|67	|
+	------------------------------------------------------------------------------------------------------------------------
+
+**************************************
+Now we will compare number at index 8 with the numbers on its left, till we get a number less than current number.
+23 is greater than 12
+We will continue to check on its left side
+Found Location for 12 to insert in an array; that is index 7
+After insertion of 12 at location 7; updated array is:
+	------------------------------------------------------------------------------------------------------------------------
+	|1	|2	|3	|4	|5	|6	|12	|12	|23	|44	|56	|4	|23	|9	|67	|
+	------------------------------------------------------------------------------------------------------------------------
+
+**************************************
+Now we will compare number at index 9 with the numbers on its left, till we get a number less than current number.
+Found Location for 44 to insert in an array; that is index 9
+After insertion of 44 at location 9; updated array is:
+	------------------------------------------------------------------------------------------------------------------------
+	|1	|2	|3	|4	|5	|6	|12	|12	|23	|44	|56	|4	|23	|9	|67	|
+	------------------------------------------------------------------------------------------------------------------------
+
+**************************************
+Now we will compare number at index 10 with the numbers on its left, till we get a number less than current number.
+Found Location for 56 to insert in an array; that is index 10
+After insertion of 56 at location 10; updated array is:
+	------------------------------------------------------------------------------------------------------------------------
+	|1	|2	|3	|4	|5	|6	|12	|12	|23	|44	|56	|4	|23	|9	|67	|
+	------------------------------------------------------------------------------------------------------------------------
+
+**************************************
+Now we will compare number at index 11 with the numbers on its left, till we get a number less than current number.
+56 is greater than 4
+We will continue to check on its left side
+44 is greater than 4
+We will continue to check on its left side
+23 is greater than 4
+We will continue to check on its left side
+12 is greater than 4
+We will continue to check on its left side
+12 is greater than 4
+We will continue to check on its left side
+6 is greater than 4
+We will continue to check on its left side
+5 is greater than 4
+We will continue to check on its left side
+Found Location for 4 to insert in an array; that is index 4
+After insertion of 4 at location 4; updated array is:
+	------------------------------------------------------------------------------------------------------------------------
+	|1	|2	|3	|4	|4	|5	|6	|12	|12	|23	|44	|56	|23	|9	|67	|
+	------------------------------------------------------------------------------------------------------------------------
+
+**************************************
+Now we will compare number at index 12 with the numbers on its left, till we get a number less than current number.
+56 is greater than 23
+We will continue to check on its left side
+44 is greater than 23
+We will continue to check on its left side
+Found Location for 23 to insert in an array; that is index 10
+After insertion of 23 at location 10; updated array is:
+	------------------------------------------------------------------------------------------------------------------------
+	|1	|2	|3	|4	|4	|5	|6	|12	|12	|23	|23	|44	|56	|9	|67	|
+	------------------------------------------------------------------------------------------------------------------------
+
+**************************************
+Now we will compare number at index 13 with the numbers on its left, till we get a number less than current number.
+56 is greater than 9
+We will continue to check on its left side
+44 is greater than 9
+We will continue to check on its left side
+23 is greater than 9
+We will continue to check on its left side
+23 is greater than 9
+We will continue to check on its left side
+12 is greater than 9
+We will continue to check on its left side
+12 is greater than 9
+We will continue to check on its left side
+Found Location for 9 to insert in an array; that is index 7
+After insertion of 9 at location 7; updated array is:
+	------------------------------------------------------------------------------------------------------------------------
+	|1	|2	|3	|4	|4	|5	|6	|9	|12	|12	|23	|23	|44	|56	|67	|
+	------------------------------------------------------------------------------------------------------------------------
+
+**************************************
+Now we will compare number at index 14 with the numbers on its left, till we get a number less than current number.
+Found Location for 67 to insert in an array; that is index 14
+After insertion of 67 at location 14; updated array is:
+	------------------------------------------------------------------------------------------------------------------------
+	|1	|2	|3	|4	|4	|5	|6	|9	|12	|12	|23	|23	|44	|56	|67	|
+	------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------
+Finally Sorted array is al follows:
+	------------------------------------------------------------------------------------------------------------------------
+	|1	|2	|3	|4	|4	|5	|6	|9	|12	|12	|23	|23	|44	|56	|67	|
+	------------------------------------------------------------------------------------------------------------------------

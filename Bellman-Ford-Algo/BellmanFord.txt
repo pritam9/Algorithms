@@ -1,0 +1,273 @@
+Weight Matrix is as follows:
+0 2 0 0 6
+7 0 4 0 0
+0 0 0 1 5
+5 0 0 0 0
+0 0 0 0 0
+----------------------------------------
+
+Initial Distance and predecor arrays are as follows:
+	------------------------------------------------
+	|Node	|0	|1	|2	|3	|4	|
+	------------------------------------------------
+	|Dist	|0	|INF	|INF	|INF	|INF	|
+	------------------------------------------------
+	|Prev	|-1	|-1	|-1	|-1	|-1	|
+	------------------------------------------------
+
+*************************************
+Now Start with relaxing edges:
+*************************************
+For iteration number 1
+*************************************
+----------------------------------
+Existing Distance from 0 to 1 was INFINITY But now we have found shorter distance than that. New Distance is 2 and predessor for this vertex is 0
+----------------------------------
+Existing Distance from 0 to 4 was INFINITY But now we have found shorter distance than that. New Distance is 6 and predessor for this vertex is 0
+----------------------------------
+Now Realxing edges from vertex 0
+After relaxing edges from vertex 0, Distance and predecor arrays are as follows:
+	------------------------------------------------
+	|Node	|0	|1	|2	|3	|4	|
+	------------------------------------------------
+	|Dist	|0	|2	|INF	|INF	|6	|
+	------------------------------------------------
+	|Prev	|-1	|0	|-1	|-1	|0	|
+	------------------------------------------------
+
+----------------------------------
+Existing Distance from 1 to 2 was INFINITY But now we have found shorter distance than that. New Distance is 6 and predessor for this vertex is 1
+----------------------------------
+Now Realxing edges from vertex 1
+After relaxing edges from vertex 0, Distance and predecor arrays are as follows:
+	------------------------------------------------
+	|Node	|0	|1	|2	|3	|4	|
+	------------------------------------------------
+	|Dist	|0	|2	|6	|INF	|6	|
+	------------------------------------------------
+	|Prev	|-1	|0	|1	|-1	|0	|
+	------------------------------------------------
+
+----------------------------------
+Existing Distance from 2 to 3 was INFINITY But now we have found shorter distance than that. New Distance is 7 and predessor for this vertex is 2
+----------------------------------
+Now Realxing edges from vertex 2
+After relaxing edges from vertex 0, Distance and predecor arrays are as follows:
+	------------------------------------------------
+	|Node	|0	|1	|2	|3	|4	|
+	------------------------------------------------
+	|Dist	|0	|2	|6	|7	|6	|
+	------------------------------------------------
+	|Prev	|-1	|0	|1	|2	|0	|
+	------------------------------------------------
+
+----------------------------------
+Now Realxing edges from vertex 3
+After relaxing edges from vertex 0, Distance and predecor arrays are as follows:
+	------------------------------------------------
+	|Node	|0	|1	|2	|3	|4	|
+	------------------------------------------------
+	|Dist	|0	|2	|6	|7	|6	|
+	------------------------------------------------
+	|Prev	|-1	|0	|1	|2	|0	|
+	------------------------------------------------
+
+----------------------------------
+Now Realxing edges from vertex 4
+After relaxing edges from vertex 0, Distance and predecor arrays are as follows:
+	------------------------------------------------
+	|Node	|0	|1	|2	|3	|4	|
+	------------------------------------------------
+	|Dist	|0	|2	|6	|7	|6	|
+	------------------------------------------------
+	|Prev	|-1	|0	|1	|2	|0	|
+	------------------------------------------------
+
+*************************************
+For iteration number 2
+*************************************
+----------------------------------
+Now Realxing edges from vertex 0
+After relaxing edges from vertex 1, Distance and predecor arrays are as follows:
+	------------------------------------------------
+	|Node	|0	|1	|2	|3	|4	|
+	------------------------------------------------
+	|Dist	|0	|2	|6	|7	|6	|
+	------------------------------------------------
+	|Prev	|-1	|0	|1	|2	|0	|
+	------------------------------------------------
+
+----------------------------------
+Now Realxing edges from vertex 1
+After relaxing edges from vertex 1, Distance and predecor arrays are as follows:
+	------------------------------------------------
+	|Node	|0	|1	|2	|3	|4	|
+	------------------------------------------------
+	|Dist	|0	|2	|6	|7	|6	|
+	------------------------------------------------
+	|Prev	|-1	|0	|1	|2	|0	|
+	------------------------------------------------
+
+----------------------------------
+Now Realxing edges from vertex 2
+After relaxing edges from vertex 1, Distance and predecor arrays are as follows:
+	------------------------------------------------
+	|Node	|0	|1	|2	|3	|4	|
+	------------------------------------------------
+	|Dist	|0	|2	|6	|7	|6	|
+	------------------------------------------------
+	|Prev	|-1	|0	|1	|2	|0	|
+	------------------------------------------------
+
+----------------------------------
+Now Realxing edges from vertex 3
+After relaxing edges from vertex 1, Distance and predecor arrays are as follows:
+	------------------------------------------------
+	|Node	|0	|1	|2	|3	|4	|
+	------------------------------------------------
+	|Dist	|0	|2	|6	|7	|6	|
+	------------------------------------------------
+	|Prev	|-1	|0	|1	|2	|0	|
+	------------------------------------------------
+
+----------------------------------
+Now Realxing edges from vertex 4
+After relaxing edges from vertex 1, Distance and predecor arrays are as follows:
+	------------------------------------------------
+	|Node	|0	|1	|2	|3	|4	|
+	------------------------------------------------
+	|Dist	|0	|2	|6	|7	|6	|
+	------------------------------------------------
+	|Prev	|-1	|0	|1	|2	|0	|
+	------------------------------------------------
+
+*************************************
+For iteration number 3
+*************************************
+----------------------------------
+Now Realxing edges from vertex 0
+After relaxing edges from vertex 2, Distance and predecor arrays are as follows:
+	------------------------------------------------
+	|Node	|0	|1	|2	|3	|4	|
+	------------------------------------------------
+	|Dist	|0	|2	|6	|7	|6	|
+	------------------------------------------------
+	|Prev	|-1	|0	|1	|2	|0	|
+	------------------------------------------------
+
+----------------------------------
+Now Realxing edges from vertex 1
+After relaxing edges from vertex 2, Distance and predecor arrays are as follows:
+	------------------------------------------------
+	|Node	|0	|1	|2	|3	|4	|
+	------------------------------------------------
+	|Dist	|0	|2	|6	|7	|6	|
+	------------------------------------------------
+	|Prev	|-1	|0	|1	|2	|0	|
+	------------------------------------------------
+
+----------------------------------
+Now Realxing edges from vertex 2
+After relaxing edges from vertex 2, Distance and predecor arrays are as follows:
+	------------------------------------------------
+	|Node	|0	|1	|2	|3	|4	|
+	------------------------------------------------
+	|Dist	|0	|2	|6	|7	|6	|
+	------------------------------------------------
+	|Prev	|-1	|0	|1	|2	|0	|
+	------------------------------------------------
+
+----------------------------------
+Now Realxing edges from vertex 3
+After relaxing edges from vertex 2, Distance and predecor arrays are as follows:
+	------------------------------------------------
+	|Node	|0	|1	|2	|3	|4	|
+	------------------------------------------------
+	|Dist	|0	|2	|6	|7	|6	|
+	------------------------------------------------
+	|Prev	|-1	|0	|1	|2	|0	|
+	------------------------------------------------
+
+----------------------------------
+Now Realxing edges from vertex 4
+After relaxing edges from vertex 2, Distance and predecor arrays are as follows:
+	------------------------------------------------
+	|Node	|0	|1	|2	|3	|4	|
+	------------------------------------------------
+	|Dist	|0	|2	|6	|7	|6	|
+	------------------------------------------------
+	|Prev	|-1	|0	|1	|2	|0	|
+	------------------------------------------------
+
+*************************************
+For iteration number 4
+*************************************
+----------------------------------
+Now Realxing edges from vertex 0
+After relaxing edges from vertex 3, Distance and predecor arrays are as follows:
+	------------------------------------------------
+	|Node	|0	|1	|2	|3	|4	|
+	------------------------------------------------
+	|Dist	|0	|2	|6	|7	|6	|
+	------------------------------------------------
+	|Prev	|-1	|0	|1	|2	|0	|
+	------------------------------------------------
+
+----------------------------------
+Now Realxing edges from vertex 1
+After relaxing edges from vertex 3, Distance and predecor arrays are as follows:
+	------------------------------------------------
+	|Node	|0	|1	|2	|3	|4	|
+	------------------------------------------------
+	|Dist	|0	|2	|6	|7	|6	|
+	------------------------------------------------
+	|Prev	|-1	|0	|1	|2	|0	|
+	------------------------------------------------
+
+----------------------------------
+Now Realxing edges from vertex 2
+After relaxing edges from vertex 3, Distance and predecor arrays are as follows:
+	------------------------------------------------
+	|Node	|0	|1	|2	|3	|4	|
+	------------------------------------------------
+	|Dist	|0	|2	|6	|7	|6	|
+	------------------------------------------------
+	|Prev	|-1	|0	|1	|2	|0	|
+	------------------------------------------------
+
+----------------------------------
+Now Realxing edges from vertex 3
+After relaxing edges from vertex 3, Distance and predecor arrays are as follows:
+	------------------------------------------------
+	|Node	|0	|1	|2	|3	|4	|
+	------------------------------------------------
+	|Dist	|0	|2	|6	|7	|6	|
+	------------------------------------------------
+	|Prev	|-1	|0	|1	|2	|0	|
+	------------------------------------------------
+
+----------------------------------
+Now Realxing edges from vertex 4
+After relaxing edges from vertex 3, Distance and predecor arrays are as follows:
+	------------------------------------------------
+	|Node	|0	|1	|2	|3	|4	|
+	------------------------------------------------
+	|Dist	|0	|2	|6	|7	|6	|
+	------------------------------------------------
+	|Prev	|-1	|0	|1	|2	|0	|
+	------------------------------------------------
+
+Now we are checking for cycles if there are any in given graph. Here we are checking if there are any negative cycles present.
+
+*************************************
+Finally,
+
+We have visited all vertices and looped through |V|-1 times.
+Our Final array Distance and previous node arrays are as follows:
+	------------------------------------------------
+	|Node	|0	|1	|2	|3	|4	|
+	------------------------------------------------
+	|Dist	|0	|2	|6	|7	|6	|
+	------------------------------------------------
+	|Prev	|-1	|0	|1	|2	|0	|
+	------------------------------------------------

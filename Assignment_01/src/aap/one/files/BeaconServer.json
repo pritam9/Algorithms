@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "notification-center-cfd32",
+  "private_key_id": "873ce0b7967eb835bb8cc49209c7768f7cdd980d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCpLhl2cC7nc97j\n6B3XNH1Oggg+LeOapQs+1JU/fIDixLjp/rZ38t7jVn18CEy7bCAQZpW0qGlXAIo8\nTYYYPegI9Iswv+WoSt1GnjKczfc4sbZ7tbQWhLTuZDf7+dAh7x9wkXzXnF3Tx8mz\nQ1cNs6aanMGEQ7Y2rdyQHlDg1B+LepVQoua6hStoXAij5HZItpIDOsFQU+ZmtHvt\n3P5ASIOi/VF1MoHgVvIyJdMYBbW6kjuZOuYE3L6L3km7iDXCNGhqEcb1KHQv6ygh\nqyJz/o2yaCToFdByyi+5tcg2L8UGr+c39TEPzL5W6ieEjiIwicBN0Y13BGZRm6lN\n/+RjKnwhAgMBAAECggEBAIOfZhgLd7KDJ6pQ8MZ6A/OMnzUhJq8uMO2VHvjhuLS1\nMNh8XyI7RsXAiKhzHJ/Eo72e0mJXlH0n4mTAO8+oelpdR92JrvecJ0PF2MK+S9VE\nDiF5YL8USGAggJ394bxE+kTuLB7jfOxDx908SwJR/xDTXIu20pD/+1X1AB+raU9t\nrvGYqUig85h+GFTZo8ds1R0lEO8Y7LlTUf1XWeuPe627e5ZM4xqSeWsLthTKOSHT\n3+FbpQlHX0ZP2b28YyyB2+e0a8BV1upV/MRDjOxccS2R13v0aaEnSGO/0hpw14Ke\npfwJ9Cqm8B0p4gYi1miYuDzY6YqKlz0XUVqF0vxdDrECgYEA4JNyJ16u1Zpxy8CC\n3YkVNNLM3iVEYjrwnyfZ3j+Io4Bjcypj60ZKgOFOCmHYw0huY+JZKfKfvL+e3SJU\nt9kVMwShZrUd19JZYwrDaqO+f/EdJzNKT3oNM624JM/vUdkyC83Jd3oYwSvqp1bQ\nriQPQcMveBkNU69bWld/aC4qmScCgYEAwNpQH32Giy2aTYCVEQ+4CQK/y8+IRvde\nL0/bNBJLjsWuNLieitXy4HfrR3QzbJyHztn9UR+xJSfkPxUAzCFKEGAI81C4+f4H\ngHlfC9JfRnrYnLc0l0vWdlut/8+NlFuXeuv38xRuqwb/vusZjUvOGKbdQaxZWc9i\no2xk50eJPXcCgYB70vCDIqKVpgWOiYPecGIf8QcCiVvOKZ9YsdlfwHovZG/xJPNY\n2zXjH9cuxEqHSh2Lt1bgWSWYJbOLTA2YHPqiWbBAeCaPRC0C/gFHgCdeVex0G8Si\nU7KJxwQcUAYtg+sjNQEbfle90uAcCjMfgURkRyGaP33ooWxmQI5APAxCywKBgQCS\n3W7JHHn6wcbRoMtky9i2G/7eAnTgvn9efm0L0aby2n5ZLgOm7VniMdDegJKs8uPF\n1mLAhecMyb1bgO4zhmJ15/zI9z93OkqSP1vvj8z4ypLtfeOyGJIBXr46ouBKDBpn\nBQ61cmj5HAJlbXrvDLyuL10uJ0eASpvuopyROPw97wKBgEWl6iPw4ke14Zq5xxT9\nPylgUvvnsrhMIjyJfsb2j+XeVp0uwlx0SQmyEDuGkocnyNLuQQJn+2sRmbhzNVaR\ngW6bG5U2gtKE68FaeA8Y1dAQALFxJg5M8imWW3Pu1rpB8JSBzw6EzDf4u32Zr/q8\nYK5zEOdXZOIS07zqqILiwMAS\n-----END PRIVATE KEY-----\n",
+  "client_email": "beacon-server@notification-center-cfd32.iam.gserviceaccount.com",
+  "client_id": "113245447957787719377",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/beacon-server%40notification-center-cfd32.iam.gserviceaccount.com"
+}
